@@ -28,3 +28,13 @@ Each invocation creates a log file with all the generated output.
 ## Sources
 
 * unrar: http://www.rarlab.com/rar_add.htm
+
+## Help support the apps
+
+If you like the repositories, or are using any of the apps from this site, please consider becoming a patreon or making a donation to support our efforts.
+
+[![Patreon](http://www.patreon.com/images/logo_emblem.png)](http://www.patreon.com/Droboports)
+
+[![Paypal](https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KYFBRYLKSGNKA)
+
+[![Flattr](https://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/177640/DroboPorts)
