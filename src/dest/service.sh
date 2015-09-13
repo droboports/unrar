@@ -7,8 +7,8 @@
 
 framework_version="2.1"
 name="unrar"
-version="5.2.7"
-description="Unrar 5.2.7"
+version="5.3.3"
+description="Unrar 5.3.3"
 depends=""
 webui=""
 
