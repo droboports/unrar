@@ -1,6 +1,6 @@
 language: c
-  os:
-    - linux
+compiler: gcc
+os: linux
 
 install:
   - dpkg --add-architecture i386
