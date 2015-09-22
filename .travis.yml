@@ -15,7 +15,7 @@ cache:
     - $HOME/xtools/toolchain/5n
 
 install:
-  - sudo mkdir -p /mnt/DroboFS/Shares/DroboApps
+  - sudo mkdir -p -m 777 /mnt/DroboFS/Shares/DroboApps
   - mkdir -p $HOME/xtools/toolchain/5n
   - if [ ! -f $HOME/xtools/toolchain/5n/arm7-tools.tgz ]; then
     wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1 ;
