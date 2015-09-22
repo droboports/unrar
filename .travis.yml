@@ -1,7 +1,7 @@
 language: c
 compiler: gcc
 os: linux
-sudo: none
+sudo: false
 
 addons:
   apt:
