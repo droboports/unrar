@@ -1,11 +1,12 @@
 language: c
 compiler: gcc
 os: linux
+sudo: required
 
 install:
 #  - dpkg --add-architecture i386
 #  - apt-get -y update
-  - apt-get -y install libc6:i386 libncurses5:i386 libstdc++6:i386
+  - sudo apt-get -y install libc6:i386 libncurses5:i386 libstdc++6:i386
   - mkdir -p $HOME/xtools/toolchain/5n
   - wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1
   - tar -zxf $HOME/xtools/toolchain/5n/arm7-tools.tgz -C $HOME/xtools/toolchain/5n
