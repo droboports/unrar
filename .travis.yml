@@ -1,0 +1,15 @@
+env:
+  global:
+    - BUILD_TOOLCHAIN=/tmp/toolchain
+
+install:
+  - mkdir -p /tmp/toolchain
+  - wget -O /tmp/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1
+  - tar -zxf /tmp/arm7-tools.tgz -C /tmp/toolchain
+
+script:
+  - ./build.sh
+
+branches:
+  only:
+    - master
