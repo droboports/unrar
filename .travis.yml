@@ -1,3 +1,10 @@
+language: c
+  os:
+    - linux
+
+compiler:
+  - arm-marvell-linux-gnueabi-gcc
+
 install:
   - mkdir -p $HOME/xtools/toolchain/5n
   - wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1
