@@ -16,8 +16,8 @@ cache:
 
 install:
   - mkdir -p $HOME/xtools/toolchain/5n /mnt/DroboFS/Shares/DroboApps
-  - [ ! -f $HOME/xtools/toolchain/5n/arm7-tools.tgz ] && wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1
-  - [ ! -d $HOME/xtools/toolchain/5n/bin ] && tar -zxf $HOME/xtools/toolchain/5n/arm7-tools.tgz -C $HOME/xtools/toolchain/5n
+  - [[ ! -f $HOME/xtools/toolchain/5n/arm7-tools.tgz ]] && wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1
+  - [[ ! -d $HOME/xtools/toolchain/5n/bin ]] && tar -zxf $HOME/xtools/toolchain/5n/arm7-tools.tgz -C $HOME/xtools/toolchain/5n
   - $HOME/xtools/toolchain/5n/bin/arm-marvell-linux-gnueabi-gcc --version
 
 script:
