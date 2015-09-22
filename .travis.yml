@@ -18,10 +18,10 @@ install:
   - sudo mkdir -p /mnt/DroboFS/Shares/DroboApps
   - mkdir -p $HOME/xtools/toolchain/5n
   - if [ ! -f $HOME/xtools/toolchain/5n/arm7-tools.tgz ]; then
-    wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1
+    wget -O $HOME/xtools/toolchain/5n/arm7-tools.tgz https://copy.com/nBZXoz3NdvFX%2FDroboAppsDS%2Farm7-tools.gz?download=1 ;
     fi
   - if [ ! -d $HOME/xtools/toolchain/5n/bin ]; then
-    tar -zxf $HOME/xtools/toolchain/5n/arm7-tools.tgz -C $HOME/xtools/toolchain/5n
+    tar -zxf $HOME/xtools/toolchain/5n/arm7-tools.tgz -C $HOME/xtools/toolchain/5n ;
     fi
   - $HOME/xtools/toolchain/5n/bin/arm-marvell-linux-gnueabi-gcc --version
 
